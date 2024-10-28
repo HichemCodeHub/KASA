@@ -1,0 +1,88 @@
+.collapse {
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 10px; /* Espacement entre les éléments collapsibles */
+    overflow: hidden; /* Masquer le contenu débordant */
+    max-width: 1240px; /* Largeur maximale */
+    width: 85%; /* Largeur relative */
+}
+
+@media screen and (max-width: 768px) {
+    .collapse {
+        width: 100%; /* Prendre toute la largeur sur les écrans plus petits */
+    }
+}
+
+.collapse .collapse-header {
+    width: 100%;;
+    position: relative; /* Position relative pour l'icône */
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
+    justify-content: space-between; /* Espace entre le titre et l'icône */
+    align-items: center; /* Alignement vertical au centre */
+    background-color: #ff6060; /* Couleur de fond de l'en-tête */
+    height: 52px; /* Hauteur fixe de l'en-tête */
+    padding-left: 10px; /* Espacement gauche */
+    padding-right: 10px; /* Espacement droit réduit */
+    cursor: pointer; /* Curseur en forme de main */
+    border: none; /* Pas de bordure */
+}
+
+.collapse .collapse-header h2 {
+    color: white; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police pour le titre */
+    font-weight: 500; /* Poids de la police */
+    line-height: 26px; /* Hauteur de ligne */
+    text-align: left; /* Alignement à gauche */
+    margin: 0; /* Pas de marge autour du titre */
+    flex-grow: 1; /* Permet au titre de prendre tout l'espace disponible */
+}
+
+.collapse .collapse-header img {
+    margin-left: 10px; /* Espacement entre le titre et l'icône */
+    transition: transform 0.4s ease; /* Transition douce pour la rotation */
+    height: 24px; /* Hauteur de l'icône */
+    width: 24px; /* Largeur de l'icône */
+}
+
+@media screen and (max-width: 768px) {
+    .collapse .collapse-header img {
+        height: 18px; /* Hauteur réduite sur les écrans plus petits */
+        width: 18px; /* Largeur réduite sur les écrans plus petits */
+    }
+}
+
+.collapse .collapse-header img.down {
+    transform: rotate(-180deg); /* Rotation de l'icône lorsqu'ouverte */
+}
+
+.collapse .collapse-content {
+    background-color: #F6F6F6; /* Couleur de fond du contenu */
+    font-weight: 300; /* Poids de la police */
+    padding: 30px 20px; /* Espacement interne */
+    margin: 0; /* Pas de marge autour du contenu */
+    color: black; /* Couleur du texte du contenu (noir) */
+    font-size: 17px; /* Taille de la police du contenu */
+    overflow: hidden; /* Masquer le contenu débordant */
+    opacity: 0; /* Commence caché */
+    height: 0; /* Masque initialement */
+    transition: all 0.3s ease-in-out; /* Durée de transition pour plus de rapidité */
+}
+
+@media screen and (max-width: 768px) {
+    .collapse .collapse-content {
+        font-size: 14px; /* Taille de la police réduite sur les écrans plus petits */
+    }
+}
+
+.collapse .collapse-content.animate {
+    opacity: 1; /* Rendre le contenu visible */
+    height: max-content; /* Permet au contenu de s'afficher complètement */
+}
+
+/* Styles pour le titre */
+.TittleCont {
+    background-color: #FF6060; /* Couleur de fond du titre */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    color: white; /* Couleur du texte */
+
+}

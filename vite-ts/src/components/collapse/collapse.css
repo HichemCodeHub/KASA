@@ -1,6 +1,6 @@
 .collapse {
     border-radius: 5px; /* Coins arrondis */
-    margin-bottom: 10px; /* Espacement entre les éléments collapsibles */
+    margin-bottom: 30px; /* Espacement entre les éléments collapsibles */
     overflow: hidden; /* Masquer le contenu débordant */
     max-width: 1240px; /* Largeur maximale */
     width: 85%; /* Largeur relative */

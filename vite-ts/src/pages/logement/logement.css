@@ -35,6 +35,7 @@
  .TextInfo{
     margin: 0;
     font-size: 18px;
+    color: black;
     
     @media (max-width: 1001px) {
        font-size: 13px;
@@ -112,7 +113,7 @@
 
  .collapse-container {
     display: flex; /* Utilise flexbox pour aligner les collapses côte à côte */
-    gap: 50px; /* Espacement entre les collapses */
+    gap: 100px; /* Espacement entre les collapses */
     flex-wrap: nowrap; /* Permet au contenu de passer à la ligne si l'espace est trop petit */
 }
 

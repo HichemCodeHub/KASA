@@ -1,0 +1,7 @@
+.collapse {
+    display: flex; /* Utilise flexbox */
+    flex-direction: column; /* Colonne pour les collapses */
+    align-items: center; /* Centre horizontalement */
+    margin: 0 auto; /* Centre le conteneur dans la page */
+    max-width: 600px; /* Largeur maximum, ajuste selon tes besoins */
+}

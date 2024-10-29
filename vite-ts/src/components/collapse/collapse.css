@@ -57,15 +57,17 @@
 .collapse .collapse-content {
     background-color: #F6F6F6; /* Couleur de fond du contenu */
     font-weight: 300; /* Poids de la police */
-    padding: 30px 20px; /* Espacement interne */
-    margin: 0; /* Pas de marge autour du contenu */
+    padding: 20px 10px; /* Espacement interne */
+    margin: 0px 10px; /* Pas de marge autour du contenu */
     color: black; /* Couleur du texte du contenu (noir) */
-    font-size: 17px; /* Taille de la police du contenu */
+    font-size: 18px; /* Taille de la police du contenu */
     overflow: hidden; /* Masquer le contenu débordant */
     opacity: 0; /* Commence caché */
     height: 0; /* Masque initialement */
     transition: all 0.3s ease-in-out; /* Durée de transition pour plus de rapidité */
+    width: 100%; /* Prend toute la largeur disponible */
 }
+
 
 @media screen and (max-width: 768px) {
     .collapse .collapse-content {
@@ -85,4 +87,14 @@
     border-radius: 5px; /* Coins arrondis */
     color: white; /* Couleur du texte */
 
+}
+
+.collapse-container {
+    display: flex; /* Utilise flexbox pour aligner les collapses côte à côte */
+    gap: 20px; /* Espacement entre les collapses */
+    flex-wrap: wrap; /* Permet au contenu de passer à la ligne si l'espace est trop petit */
+}
+
+p {
+    margin-left: 15px;
 }

@@ -2,16 +2,18 @@
 import App from '../../App';
 import './home.css'
 import React, { useRef } from 'react';
-import Footer from '../../components/footer/footer';
-import Header from '../../components/header/header';
-import Banner from '../../components/banner/banner';
+import BannerHome from '../../components/banner/banner';
+import Card from '../../components/card/card'
 
 function Home() {
     return (
       <div>
-        <Header />
-        <Banner />
-        <Footer />
+        
+        <BannerHome />
+        
+
+        <Card />
+       
        
       </div>
 

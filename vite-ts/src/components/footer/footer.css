@@ -1,3 +1,17 @@
-.footer {
-    color: blue;
-}
+.ContFooter {
+    background-color: black;
+    height: 210px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .Footer__Text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    @media (max-width: 1001px) {
+       font-size: 15px;
+    }
+ }

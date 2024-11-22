@@ -1,15 +1,9 @@
-// IMPORTS
 import './rating.css';
 
-// ASSETS
 import StarRempli from '../../assets/rate/starRempli.png';
 import StarVide from '../../assets/rate/starVide.png';
 
-// STYLES
 
-
-// Composant Rating > affiche les étoiles en fonction de la note
-// Props : rating (note de 1 à 5)
 function Rating({ rating }) { 
    const stars = []; // Creer un tableau pour stocker les étoiles
  

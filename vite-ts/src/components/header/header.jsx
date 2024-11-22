@@ -3,10 +3,6 @@ import { Link, NavLink } from 'react-router-dom'
 import './header.css'
 
 
-
-
-
-// Layout Header 
 function Header() {
    return (
       <nav className='ContHeader'>

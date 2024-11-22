@@ -1,8 +1,6 @@
-// IMPORTS
 import { Link } from 'react-router-dom'
 import './card.css'
 
-// ASSETS
 import DataLocation from '../../datas/logement.json'
 
 

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './error.css';
 
 /** EXPLICATION DU COMPOSANT "ErrorPage" :
 * C'est un composant qui affiche une page d'erreur 404.

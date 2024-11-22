@@ -1,0 +1,38 @@
+
+ .error-page {
+	 text-align: center;
+	 height: 66.8vh;
+}
+ @media screen and (max-width: 768px) {
+	 .error-page {
+		 height: 64.1vh;
+	}
+}
+ .error-page h1 {
+	 color: #ff6060;
+	 font-size: 15rem;
+	 margin-bottom: 0.5em;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ @media screen and (max-width: 768px) {
+	 .error-page h1 {
+		 font-size: 7rem;
+	}
+}
+ .error-page h2 {
+	 color: #ff6060;
+	 font-size: 28px;
+	 font-weight: 400;
+	 margin-bottom: 5rem;
+}
+ @media screen and (max-width: 768px) {
+	 .error-page h2 {
+		 font-size: 25px;
+	}
+}
+
+.error-page a {
+    color: #000000;
+
+}
+ 
